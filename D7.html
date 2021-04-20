@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./resources/css/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>This is the title of the page</h1>
+      <span>&larr; click there</span>
+      <h2>This is the subtitle of the page</h2>
+      <hr />
+    </header>
+
+    <main>
+      <div class="btns-container">
+        <div>
+          <input
+            type="text"
+            name="new-title"
+            id="new-title"
+            placeholder="insert new doc title"
+          />
+          <button class="btn" id="change-title-btn">Change doc title</button>
+        </div>
+        <div>
+          <input
+            type="text"
+            name="new-h1"
+            id="new-h1"
+            placeholder="insert new h1 text"
+          />
+          <button class="btn" id="change-h1-btn">Change h1</button>
+        </div>
+        <div>
+          <button class="btn" id="toggle-h1-class">Toggle h1 class</button>
+        </div>
+        <div>
+          <input
+            type="text"
+            name="new-p-content"
+            id="new-p-content"
+            placeholder="insert new p content"
+          />
+          <button class="btn" id="change-p-btn">Change p content</button>
+        </div>
+        <div>
+          <label for="new-url">https://</label>
+          <input
+            type="text"
+            name="new-url"
+            id="new-url"
+            placeholder="insert new url"
+          />
+          <button class="btn" id="change-url-btn">Change url</button>
+        </div>
+        <div>
+          <input
+            type="text"
+            name="new-li"
+            id="new-li"
+            placeholder="insert content of new li"
+          />
+          <button class="btn" id="add-li-btn">Add new li</button>
+        </div>
+        <div>
+          <input
+            type="text"
+            name="new-p"
+            id="new-p"
+            placeholder="insert content of new p"
+          />
+          <button class="btn" id="add-p-btn">Add new p</button>
+        </div>
+        <div>
+          <button class="btn" id="toggle-first-ul">Toggle first ul</button>
+        </div>
+        <div>
+          <button class="btn" id="random-ul-color">
+            Randomize bg color for all ul
+          </button>
+        </div>
+      </div>
+      <hr />
+
+      <ul id="firstList">
+        <li>1st</li>
+        <li>2nd</li>
+        <li>3rd</li>
+      </ul>
+
+      <ul id="secondList">
+        <li>1st</li>
+        <li>2nd</li>
+        <li>3rd</li>
+      </ul>
+
+      <a href="https://www.strive.school" target="_blank"
+        >This link goes to Strive School</a
+      >
+
+      <div id="paragraphs-div">
+        <p>This text is just for the exercise</p>
+      </div>
+
+      <div>
+        <input
+          type="text"
+          id="input-field"
+          placeholder="input field for the exercise"
+        />
+      </div>
+    </main>
+
+    <footer>
+      <p>And this text is just for the exercise too!</p>
+      <span>&larr; click there</span>
+    </footer>
+    <script src="./resources/js/app.js"></script>
+  </body>
+</html>
